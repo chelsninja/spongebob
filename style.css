@@ -1,0 +1,136 @@
+.spongebob {
+  border: 1px solid #000;
+  background-color: #FFFF33;
+  position: relative;
+  margin: 50px auto;
+  width: 250px;
+  height: 300px;
+}
+.eye1,
+.eye2 {
+  border: 2px solid #000;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 40px;
+  width: 75px;
+  height: 70px;
+}
+.eye2 {
+  right: 50px;
+}
+.eye1 {
+  left: 50px;
+}
+.eye1 .iris,
+.eye2 .iris {
+  border: 3px solid #000;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  position: relative;
+  background-color: #00A4C0;
+}
+.eye2 .iris {
+  left: 12px;
+}
+.eye1 .iris {
+  right: -35px;
+}
+.pupil {
+  background-color: #000;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  top: 6px;
+  right: 5px;
+}
+.nose1, .nose2 {
+  position: absolute;
+  width: 18px;
+}
+.nose1 {
+  top: 90px;
+  left: 113px;
+  height: 22px;
+  border-radius: 40% 40% 0 40%;
+  border-top: 3px solid #A2B30D;
+  border-left: 3px solid #A2B30D;
+  background-color: #FFFF33;
+}
+.nose2 {
+  top: 91px;
+  left: 114px;
+  height: 30px;
+  border-radius: 50% 50% 100% 50%;
+  border-right: 3px solid #A2B30D;
+}
+.mouth {
+  width: 170px;
+  height: 120px;
+  border-bottom: 2px solid #000;
+  border-radius: 0 40% 40%;
+  top: 30px;
+  left: 40px;
+  position: relative;
+}
+.cheek1,
+.cheek2 {
+  width: 35px;
+  height: 30px;
+  top: 55px;
+  border-radius: 50% 50%;
+  border-top: 2px solid #F90017;
+  position: absolute;
+}
+.cheek1 {
+  border-left: 2px solid #F90017;
+  transform: rotate(30deg);
+  left: -20px;
+}
+.cheek2 {
+  border-right: 2px solid red;
+  transform: rotate(-30deg);
+  right: -20px;
+}
+.dimple1,
+.dimple2 {
+  border-top: 3px solid #000;
+  width: 10px;
+  height: 5px;
+  top: 78px;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+}
+.dimple1 {
+  transform: rotate(-15deg);
+  left: -4px;
+}
+.dimple2 {
+  transform: rotate(15deg);
+  right: -4px;
+}
+.tooth1,
+.tooth2 {
+  height: 14px;
+  width: 18px;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  position: absolute;
+  bottom: -17px;
+  border-radius: 0 0 4px 4px;
+  background-color: #fff;
+}
+.tooth1 {
+  left: 58px;
+  transform: rotate(2deg);
+}
+.tooth2 {
+  right: 58px;
+  transform: rotate(-2deg);
+}
+
