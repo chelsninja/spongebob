@@ -1,6 +1,6 @@
 .spongebob {
   border: 1px solid #000;
-  background-color: #FFFF33;
+  background-color: #ffff33;
   position: relative;
   margin: 50px auto;
   width: 250px;
@@ -31,7 +31,7 @@
   height: 20px;
   top: 20px;
   position: relative;
-  background-color: #00A4C0;
+  background-color: #00a4c0;
 }
 .eye2 .iris {
   left: 12px;
@@ -57,16 +57,16 @@
   left: 113px;
   height: 22px;
   border-radius: 40% 40% 0 40%;
-  border-top: 3px solid #A2B30D;
-  border-left: 3px solid #A2B30D;
-  background-color: #FFFF33;
+  border-top: 3px solid #a2b30d;
+  border-left: 3px solid #a2b30d;
+  background-color: #ffff33;
 }
 .nose2 {
   top: 91px;
   left: 114px;
   height: 30px;
   border-radius: 50% 50% 100% 50%;
-  border-right: 3px solid #A2B30D;
+  border-right: 3px solid #a2b30d;
 }
 .mouth {
   width: 170px;
@@ -83,11 +83,11 @@
   height: 30px;
   top: 55px;
   border-radius: 50% 50%;
-  border-top: 2px solid #F90017;
+  border-top: 2px solid #f90017;
   position: absolute;
 }
 .cheek1 {
-  border-left: 2px solid #F90017;
+  border-left: 2px solid #f90017;
   transform: rotate(30deg);
   left: -20px;
 }
@@ -95,6 +95,45 @@
   border-right: 2px solid red;
   transform: rotate(-30deg);
   right: -20px;
+}
+.freckle1,
+.freckle2,
+.freckle3 {
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  height: 4px;
+  width: 7px;
+}
+.cheek1 .freckle1 {
+  transform: rotate(-45deg);
+  top: 12px;
+  left: 1px;
+}
+.cheek1 .freckle2 {
+  transform: rotate(-45deg);
+  top: 8px;
+  left: 12px;
+}
+.cheek1 .freckle3 {
+  transform: rotate(-45deg);
+  top: -6px;
+  left: 12px;
+}
+.cheek2 .freckle1 {
+  transform: rotate(45deg);
+  top: 2px;
+  left: 18px;
+}
+.cheek2 .freckle2 {
+  transform: rotate(45deg);
+  top: 8px;
+  left: 16px;
+}
+.cheek2 .freckle3 {
+  transform: rotate(45deg);
+  top: 5px;
+  left: 26px;
 }
 .dimple1,
 .dimple2 {
@@ -132,4 +171,33 @@
 .tooth2 {
   right: 58px;
   transform: rotate(-2deg);
+}
+.lip {
+  position: relative;
+  top: 150px;
+  left: 70px;
+  height: 12px;
+  width: 30px;
+  border-top: 3px solid #fd9ac6;
+  border-radius: 50%;
+}
+.lip:before {
+  position: absolute;
+  top: -18px;
+  left: -18px;
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-bottom: 3px solid #fd9ac6;
+  border-radius: 25% 50%;
+}
+.lip:after {
+  position: absolute;
+  top: -18px;
+  left: 28px;
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-bottom: 3px solid #fd9ac6;
+  border-radius: 50% 25%;
 }
