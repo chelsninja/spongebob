@@ -1,10 +1,12 @@
 .spongebob {
-  border: 1px solid #000;
-  background-color: #ffff33;
-  position: relative;
   margin: 50px auto;
   width: 250px;
-  height: 300px;
+}
+.head {
+  border: 3px solid #a3b20d;
+  background-color: #ffff33;
+  position: relative;
+  height: 250px;
 }
 .eye1,
 .eye2 {
@@ -200,4 +202,46 @@
   width: 20px;
   border-bottom: 3px solid #fd9ac6;
   border-radius: 50% 25%;
+}
+.hole {
+  background-color: #a3b20d;
+  transform: rotate(25deg);
+  border-radius: 50%;
+  position: absolute;
+}
+.hole.sm {
+  height: 18px;
+  width: 10px;
+}
+.hole.lg {
+  height: 30px;
+  width: 16px;
+}
+.nw1 {
+  top: 10px;
+  left: 25px;
+}
+.nw2 {
+  top: 50px;
+  left: 18px;
+}
+.ne1 {
+  top: 30px;
+  right: 18px;
+}
+.sw1 {
+  bottom: 50px;
+  left: 18px;
+}
+.sw2 {
+  bottom: 10px;
+  left: 25px;
+}
+.se1 {
+  bottom: 50px;
+  right: 20px;
+}
+.se2 {
+  bottom: 15px;
+  right: 25px;
 }
